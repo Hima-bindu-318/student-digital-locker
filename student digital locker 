@@ -1,0 +1,18 @@
+# Extract the ZIP
+cd student-digital-locker
+
+# Initialize Git
+git init
+
+# Add all files
+git add .
+
+# Commit
+git commit -m "Initial Student Digital Locker website"
+
+# Connect your GitHub repository
+git remote add origin https://github.com/YOUR_USERNAME/student-digital-locker.git
+
+# Push
+git branch -M main
+git push -u origin main
